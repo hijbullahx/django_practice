@@ -1,0 +1,15 @@
+{
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "jinja-html": "html"
+    },
+    "emmet.triggerExpansionOnTab": true
+    ,"editor.autoClosingTags": true
+    ,"editor.autoClosingBrackets": "always"
+}
