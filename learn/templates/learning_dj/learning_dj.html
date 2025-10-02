@@ -1,25 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <p>Filter</p>
-    <h2>{{c | capfirst}}</h2>
-    <h2>{{c | length}}</h2>
+{% extends 'common_code/base.html' %}
 
-    <p>Tag</p>
-    {% if st == 2 %}
-    <h1>This is if part </h1>
-    {% elif st == 1 %}
-    <h2>Checking elif </h2>
-    {% else %}
-    <h2>This is else part</h2>
-    {% endif %}
+{%block title%} Learninng 2 {% endblock title %}
 
-
-
-  </body>
-</html>
+{% block alert %} Succeed {% endblock alert %}

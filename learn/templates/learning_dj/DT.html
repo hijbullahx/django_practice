@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{% static 'css/dtstyle.css' %}"/>
-  <title>DT</title>
-</head>
-<body>
-  <div class="margine">
-    <div class="padding">
-      <p>Hijbullah</p>
-    </div>
-  </div>
-  <div class="border">
+{% extends 'common_code/base.html' %}
 
-  </div>
-</body>
-</html>
+{%block title%} DT {% endblock title %}
+
+{% block alert %} DT page {% endblock alert %}

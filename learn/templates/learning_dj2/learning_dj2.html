@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel = "stylesheet" href = "{% static 'css/style.css' %}" />
-  <title>Document</title>
-</head>
-<body>
-  <h1>Hijbullah</h1>
+{% extends 'common_code/base.html' %}
 
+{%block title%} Learninng 2 {% endblock title %}
 
-
-<img src="{% static 'images/dj.jpg' %}" alt="logo"/>
-</body>
-</html>
+{% block alert %} Succeed {% endblock alert %}
