@@ -51,3 +51,60 @@ tpl6 = [1,2,3,4]
 tpl6[2] = 4
 
 print(f"9: New Tuple: {tpl6}")
+
+#Dictionary of 5 students:
+
+st = {
+    "Hijbullah": 5,
+    "Javir" : 6, 
+    "Rony" :7
+}
+print(f"1: {st}")
+
+print(f"2: ")
+for key, values in st.items():
+    print(f" {key} , {values}")
+
+print(f"3: ")
+st["Javir"] = 69
+print(st)
+
+
+print(f"4: Updated Dictionary: ")
+st.update({"Udoy" : 33, "Abir" : 34})
+print(st)
+
+print(f"5: After Pop and Delete: ")
+print(st.pop("Rony"))
+
+ns_ds = {
+    "CSE" : {
+        "Fisrt": 22,
+        "Sec" : 21,
+    },
+    "BBA" : {
+            "First" : 10,
+            "Second" : 23,
+    }
+}
+
+print(f"6: Nestd Dictionary: ")
+print(ns_ds)
+
+
+
+
+
+
+ch_c = 0
+
+for key in st:
+        for ch in key:
+             if ch in key:
+              ch_c = ch_c + 1
+print(f"7: Total Character in the DIctionary: {ch_c}")
+
+
+
+
+
