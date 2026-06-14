@@ -12,7 +12,7 @@
 # def sum(x, y):
 #     print(x+y)
 
-# sum(7,8)
+# sum(9,8)
 
 # def multi(a,b):
 #     print(a * b)
@@ -33,7 +33,9 @@
 # def sqr(x):
 #     return x * x
 # result = sqr(9)
+# rst = sqr(5)
 # print(result)
+# print(rst)
     
 # def str(y,z):
 #     return y*z
@@ -41,13 +43,14 @@
 # print(r)
 
 # *Args
-def show(*args):
-    print(args)
-show(1,3,2,4,5,22)
+# def show(*args):
+#     print(args)
+# show(1,3,2,4,5,22)
 
 
-def total(*num):
-    print(sum(num))
+# def total(*num):
+#     print(sum(num))
 
-total(2,3,4,3,4,5,66)
-total(2,3)
+# total(2,3,4,3,4,5,66)
+# total(2,3)
+# total(2,4)
