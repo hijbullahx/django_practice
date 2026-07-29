@@ -1,0 +1,15 @@
+p{
+  font-size: 30px;
+}
+
+.font {
+  font-size: 1000px ;
+  color: rgb(62, 236, 27);
+  font-weight: 900;
+}
+#hello{
+  background-color: blue;
+}
+*{
+  color: brown
+}

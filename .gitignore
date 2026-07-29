@@ -1,0 +1,43 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+.venv/
+env/
+.env/
+db.sqlite3
+/media
+/static
+
+# Django
+*.log
+*.pot
+*.mo
+*.js.map
+*.css.map
+local_settings.py
+.DS_Store
+
+# IDEs and OS
+.idea/
+.vscode/
+Thumbs.db
+
+# Virtual environments
+# Often `venv` or `.venv` directories
+# Add your specific virtual environment directory if different
+# Example: myenv/
+
+# Other common files
+.Python
+*.egg-info/
+.coverage
+.tox/
+.mypy_cache/
+.pytest_cache/
+
+# Node.js specific (if using frontend build tools)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
